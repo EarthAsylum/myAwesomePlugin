@@ -81,12 +81,4 @@ Copyright © 2022, Me
 
 = 1.3 =
 
-Requires {eac}Doojigger v3.0+
-
-= 1.2 =
-
-Requires {eac}Doojigger v2.5+
-
-= 1.1 =
-
-Requires {eac}Doojigger v2.0+
+Requires {eac}Doojigger v3.1+
