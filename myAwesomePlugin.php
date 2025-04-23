@@ -19,7 +19,7 @@
  * Requires PHP:		8.1
  * Requires EAC:		3.1
  * Plugin URI: 			https://github.com/EarthAsylum/docs.eacDoojigger/wiki/Plugin-Derivatives
- * Update URI: 			https://dev.earthasylum.com/software-updates/myAwesomePlugin.json
+ * Update URI: 			https://dev.earthasylum.net/software-updates/myAwesomePlugin.json
  * Author:				Kevin Burkholder @ EarthAsylum Consulting
  * Author URI:			http://www.earthasylum.com
  * Text Domain:			myAwesomePlugin
