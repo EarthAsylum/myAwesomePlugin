@@ -39,6 +39,8 @@ Installation of this plugin can be managed from the WordPress Dashboard » Plugi
 
 myAwesomePlugin is a derivative plugin of and requires installation and registration of [{eac}Doojigger](https://eacDoojigger.earthasylum.com/)
 
+Find this plugin, further documentation, and all {eac}Doojigger Extras at [this GitHub repository](https://github.com/EarthAsylum/docs.eacDoojigger)
+
 ### Screenshots
 
 1. myAwesomePlugin
