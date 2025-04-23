@@ -7,7 +7,7 @@
  * @category	WordPress Plugin
  * @package		myAwesomePlugin
  * @author		Kevin Burkholder <KBurkholder@EarthAsylum.com>
- * @copyright	Copyright (c) 2024 EarthAsylum Consulting <www.earthasylum.com>
+ * @copyright	Copyright (c) 2025 EarthAsylum Consulting <www.earthasylum.com>
  * @uses		EarthAsylumConsulting\Traits\plugin_loader
  *
  * @wordpress-plugin
