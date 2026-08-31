@@ -7,15 +7,15 @@
  * @category	WordPress Plugin
  * @package		myAwesomePlugin
  * @author		Kevin Burkholder <KBurkholder@EarthAsylum.com>
- * @copyright	Copyright (c) 2025 EarthAsylum Consulting <www.earthasylum.com>
+ * @copyright	Copyright (c) 2026 EarthAsylum Consulting <www.earthasylum.com>
  * @uses		EarthAsylumConsulting\Traits\plugin_loader
  *
  * @wordpress-plugin
  * Plugin Name:			My Awesome Plugin
  * Description:			EarthAsylum Consulting {eac}Doojigger Awesome derivative
- * Version:				1.3.3
+ * Version:				1.3.4
  * Requires at least:	5.8
- * Tested up to: 		6.8
+ * Tested up to: 		7.1
  * Requires PHP:		8.1
  * Requires EAC:		3.1
  * Plugin URI: 			https://github.com/EarthAsylum/docs.eacDoojigger/wiki/Plugin-Derivatives
@@ -87,6 +87,28 @@ namespace myAwesomeNamespace
 				'AutoUpdate'		=> 'self',			// automatic update 'self' or 'wp'
 			];
 	} // myAwesomePlugin
+
+	/*
+	 * Optional - add links to the plugins page listing - Settings, Documentation, Support
+	 */
+	if (is_admin())
+	{
+		/*
+		 * Add links on plugins page
+		 */
+		add_filter( (is_network_admin() ? 'network_admin_' : '').'plugin_action_links_' . plugin_basename( __FILE__ ),
+			function($pluginLinks, $pluginFile, $pluginData) {
+				return array_merge(
+					[
+						'settings'		=> myAwesomePlugin::getSettingsLink($pluginData,'general'),
+						'documentation'	=> myAwesomePlugin::getDocumentationLink($pluginData),
+						'support'		=> myAwesomePlugin::getSupportLink($pluginData),
+					],
+					$pluginLinks
+				);
+			},20,3
+		);
+	}
 } // namespace
 
 
