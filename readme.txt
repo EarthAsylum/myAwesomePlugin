@@ -2,7 +2,7 @@
 Plugin URI: 		https://github.com/EarthAsylum/myAwesomePlugin
 Author:             [Me](https://www.myawesomeserver.com/profile/me)
 Stable tag:         1.3.4
-Last Updated:       30-Aug-2026
+Last Updated:       31-Aug-2026
 Requires at least:  5.8
 Tested up to:       7.1
 Requires PHP:       8.1
@@ -51,10 +51,10 @@ Requires [{eac}Doojigger](https://eacDoojigger.earthasylum.com/) v3.1+
 
 == Changelog ==
 
-= Version 1.3.4 – August 30, 2026 =
+= Version 1.3.4 – August 31, 2026 =
 
 +	Compatible with WordPress 7.1.
-+	Added Settings, Documentation, Support links to plugins page listing.
++	Added Documentation, Support links to plugins page listing.
 
 = Version 1.3.3 – July 25, 2025 =
 

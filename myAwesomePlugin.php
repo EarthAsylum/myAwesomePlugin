@@ -50,10 +50,12 @@ namespace myAwesomeNamespace
 	// must have {eac}Doojigger and {eac}DoojiggerAutoloader activated
 	if (!defined('EACDOOJIGGER_VERSION'))
 	{
-		\add_action( 'all_admin_notices', function()
+		\add_action( 'admin_notices', function()
 			{
-			echo '<div class="notice notice-error is-dismissible"><p>myAwesoomePlugin requires installation & activation of '.
-				 '<a href="https://eacdoojigger.earthasylum.com/eacdoojigger" target="_blank">{eac}Doojigger</a>.</p></div>';
+				echo '<div class="notice notice-error is-dismissible">'.
+					 '<em>My Awesome Plugin</em> requires installation & activation of '.
+					 '<a href="https://eacdoojigger.earthasylum.com/eacdoojigger" target="_blank">'.
+					 '{eac}Doojigger</a>.</div>';
 			}
 		);
 		return;
@@ -87,28 +89,6 @@ namespace myAwesomeNamespace
 				'AutoUpdate'		=> 'self',			// automatic update 'self' or 'wp'
 			];
 	} // myAwesomePlugin
-
-	/*
-	 * Optional - add links to the plugins page listing - Settings, Documentation, Support
-	 */
-	if (is_admin())
-	{
-		/*
-		 * Add links on plugins page
-		 */
-		add_filter( (is_network_admin() ? 'network_admin_' : '').'plugin_action_links_' . plugin_basename( __FILE__ ),
-			function($pluginLinks, $pluginFile, $pluginData) {
-				return array_merge(
-					[
-						'settings'		=> myAwesomePlugin::getSettingsLink($pluginData,'general'),
-						'documentation'	=> myAwesomePlugin::getDocumentationLink($pluginData),
-						'support'		=> myAwesomePlugin::getSupportLink($pluginData),
-					],
-					$pluginLinks
-				);
-			},20,3
-		);
-	}
 } // namespace
 
 

@@ -9,7 +9,7 @@
 Plugin URI: 		https://github.com/EarthAsylum/myAwesomePlugin  
 Author:             [Me](https://www.myawesomeserver.com/profile/me)  
 Stable tag:         1.3.4  
-Last Updated:       30-Aug-2026  
+Last Updated:       31-Aug-2026  
 Requires at least:  5.8  
 Tested up to:       7.1  
 Requires PHP:       8.1  
