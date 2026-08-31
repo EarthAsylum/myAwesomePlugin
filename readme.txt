@@ -1,5 +1,5 @@
 === My Awesome Plugin ===
-Plugin URI:         https://github.com/EarthAsylum/docs.eacDoojigger/wiki/Plugin-Derivatives
+Plugin URI: 		https://github.com/EarthAsylum/myAwesomePlugin
 Author:             [Me](https://www.myawesomeserver.com/profile/me)
 Stable tag:         1.3.4
 Last Updated:       30-Aug-2026
