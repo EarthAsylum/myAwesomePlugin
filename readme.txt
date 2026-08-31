@@ -7,7 +7,7 @@ Requires at least:  5.8
 Tested up to:       7.1
 Requires PHP:       8.1
 Requires EAC:       3.1
-Support link: 		https://github.com/EarthAsylum/docs.eacDoojigger/issues
+Support link: 		https://github.com/EarthAsylum/docs.eacDoojigger
 
 My Awesome Plugin is a really awesome {eac}Doojigger derivative plugin that provides an example and framework for building custom Doojigger plugins.
 
